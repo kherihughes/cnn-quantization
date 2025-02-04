@@ -1,0 +1,8 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.2.0+cu121  # Using CUDA 12.1 build as it's compatible with CUDA 12.8
+torchvision==0.17.0+cu121
+torchaudio==2.2.0+cu121
+numpy>=1.21.0,<2.0.0  # Pin to numpy 1.x for compatibility
+matplotlib>=3.3.0
+jupyterlab>=3.0.0
+ipython>=7.0.0
